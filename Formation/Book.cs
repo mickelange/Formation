@@ -8,6 +8,9 @@ namespace Formation
 {
     class Book
     {
+        private Author[] authors = new Author[10];
+        private int nbAuthors =0;
+
         public string Isbn
         {
             get; set;
@@ -37,6 +40,25 @@ namespace Formation
         {
             get; set;
         }
+
+        public void addAuthor(Author auteur)
+        {
+            authors[nbAuthors] = auteur;
+            nbAuthors++;
+
+        }
+
+        public void displayAuthor()
+        {
+            Console.WriteLine("liste des auteurs de " + this.Titre + " : ");
+            Console.WriteLine();
+            for (int i = 0; i < this.nbAuthors; i++)
+            {
+                Console.WriteLine(this.authors[i].firstName + " " + this.authors[i].lastName);
+
+            }
+        }
+
 
     }
 }

@@ -3,19 +3,29 @@
   <Class Name="Formation.Book">
     <Position X="3.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAACAIAAAAAAAAAACAABAAAAAQAAAAABBAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAIAAAAAAAAAACAABAAAAAQAAAAABRAAAAAAAAAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Publisher" />
     </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="authors" />
+    </ShowAsCollectionAssociation>
   </Class>
   <Class Name="Formation.Publisher">
     <Position X="0.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAACAAAABAAIAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAACAAAABAAIAAAAAAAgA=</HashCode>
       <FileName>Publisher.cs</FileName>
       <NewMemberFileName>publisher.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Formation.Author" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Author.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

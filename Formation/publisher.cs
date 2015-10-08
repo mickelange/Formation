@@ -9,11 +9,11 @@ namespace Formation
     class Publisher
 
     {
+        private int id;
 
-        public int Id
-        {
-            get; set;
-        }
+
+  
+
         public string Nom
         {
             get; set;
@@ -34,6 +34,19 @@ namespace Formation
 
             set
             {
+            }
+        }
+
+        public int Id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
             }
         }
     }

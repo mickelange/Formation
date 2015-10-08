@@ -16,8 +16,21 @@ namespace Formation
             b.Publisher = editeur;
             Console.WriteLine(b.Titre);
             Console.WriteLine(b.Publisher.Nom);
-            Console.ReadKey();
+            
 
+            Author auteur1 = new Author();
+            auteur1.firstName = "Elizabeth";
+            auteur1.lastName = "George";
+
+            Author auteur2 = new Author();
+            auteur2.firstName = "Tom";
+            auteur2.lastName = "Clancy";
+
+            b.addAuthor(auteur2);
+            b.addAuthor(auteur1);
+            b.displayAuthor();
+
+            Console.ReadKey();
 
         }
     }
