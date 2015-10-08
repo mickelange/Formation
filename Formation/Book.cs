@@ -54,7 +54,7 @@ namespace Formation
             Console.WriteLine();
             for (int i = 0; i < this.nbAuthors; i++)
             {
-                Console.WriteLine(this.authors[i].firstName + " " + this.authors[i].lastName);
+                Console.WriteLine(this.authors[i].FirstName + " " + this.authors[i].LastName);
 
             }
         }

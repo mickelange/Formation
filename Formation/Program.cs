@@ -19,12 +19,12 @@ namespace Formation
             
 
             Author auteur1 = new Author();
-            auteur1.firstName = "Elizabeth";
-            auteur1.lastName = "George";
+            auteur1.FirstName = "Elizabeth";
+            auteur1.LastName = "George";
 
             Author auteur2 = new Author();
-            auteur2.firstName = "Tom";
-            auteur2.lastName = "Clancy";
+            auteur2.FirstName = "Tom";
+            auteur2.LastName = "Clancy";
 
             b.addAuthor(auteur2);
             b.addAuthor(auteur1);

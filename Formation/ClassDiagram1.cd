@@ -3,7 +3,7 @@
   <Class Name="Formation.Book">
     <Position X="3.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAACAIAAAAAAAAAACAABAAAAAQAAAAABRAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAIAAAAAAAAAACAABAAAAAQAAEAABZAAAAAAEAAA=</HashCode>
       <FileName>Book.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -21,7 +21,7 @@
       <NewMemberFileName>publisher.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Formation.Author" Collapsed="true">
+  <Class Name="Formation.Author">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
