@@ -18,6 +18,7 @@ namespace Formation
             Console.WriteLine(b.Publisher.Nom);
             Console.ReadKey();
 
+
         }
     }
 }
