@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Formation
+namespace com.m2i.formation.media
 {
-    class Publisher
+    public class Publisher
 
     {
         private int id;

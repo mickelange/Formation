@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using com.m2i.formation.media;
+using com.m2i.formation.geometry;
 
 namespace Formation
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -28,9 +30,17 @@ namespace Formation
 
             b.addAuthor(auteur2);
             b.addAuthor(auteur1);
+            b.Category = BookCategory.Novel;
             b.displayAuthor();
-
             Console.ReadKey();
+
+            ////test static
+            Counter c1 = new Counter();
+            Counter c2 = new Counter();
+
+          
+            Console.WriteLine(Counter.increment());//marche car statique!
+
 
         }
     }

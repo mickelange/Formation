@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Formation
+namespace com.m2i.formation.media
 {
-    class Book
+    public class Book
     {
-        private Author[] authors = new Author[10];
+        public Author[] Authors { get; private set; } = new Author[10];
         private int nbAuthors =0;
 
         public string Isbn
@@ -41,9 +41,14 @@ namespace Formation
             get; set;
         }
 
+        public BookCategory Category
+        {
+            get; set;
+        }
+
         public void addAuthor(Author auteur)
         {
-            authors[nbAuthors] = auteur;
+            Authors[nbAuthors] = auteur;
             nbAuthors++;
 
         }
@@ -54,7 +59,7 @@ namespace Formation
             Console.WriteLine();
             for (int i = 0; i < this.nbAuthors; i++)
             {
-                Console.WriteLine(this.authors[i].FirstName + " " + this.authors[i].LastName);
+                Console.WriteLine(this.Authors[i].FirstName + " " + this.Authors[i].LastName);
 
             }
         }

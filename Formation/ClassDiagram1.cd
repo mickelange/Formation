@@ -1,31 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Formation.Book">
+  <Class Name="com.m2i.formation.media.Book">
     <Position X="3.5" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAACAIAAAAAAAAAACAABAAAAAQAAEAABZAAAAAAEAAA=</HashCode>
-      <FileName>Book.cs</FileName>
+      <HashCode>AAACAIAAAAAAAAAACAABAAAAAQBAEAABJAAAAAAECAA=</HashCode>
+      <FileName>com.m2i.formation.media\Book.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Publisher" />
     </ShowAsAssociation>
-    <ShowAsCollectionAssociation>
-      <Field Name="authors" />
-    </ShowAsCollectionAssociation>
   </Class>
-  <Class Name="Formation.Publisher">
+  <Class Name="com.m2i.formation.media.Publisher">
     <Position X="0.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAAAACAAAABAAIAAAAAAAgA=</HashCode>
-      <FileName>Publisher.cs</FileName>
-      <NewMemberFileName>publisher.cs</NewMemberFileName>
+      <FileName>com.m2i.formation.media\Publisher.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Formation.Author">
+  <Class Name="com.m2i.formation.media.Author">
     <Position X="7.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
-      <FileName>Author.cs</FileName>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>com.m2i.formation.media\Author.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

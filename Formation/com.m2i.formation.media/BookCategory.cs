@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Formation
+namespace com.m2i.formation.media
 {
-    class Author
+    public enum BookCategory
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-
+        SF,Novel,Computer
     }
 }
