@@ -33,5 +33,10 @@ namespace Formation
             get; set;
         }
 
+        public Publisher Publisher
+        {
+            get; set;
+        }
+
     }
 }
