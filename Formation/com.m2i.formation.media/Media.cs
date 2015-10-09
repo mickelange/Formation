@@ -27,6 +27,10 @@ namespace Formation.com.m2i.formation.media
         }
         public void addAuthor(Author auteur)
         {
+            if (nbAuthors > 10)
+            {
+                throw new MediaException("Too many authors");
+            }
             Authors[nbAuthors] = auteur;
             nbAuthors++;
 
