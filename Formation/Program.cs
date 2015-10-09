@@ -32,14 +32,16 @@ namespace Formation
             b.addAuthor(auteur1);
             b.Category = BookCategory.Novel;
             b.displayAuthor();
+            b.Prix = 10;
+            Console.WriteLine(b.getVAPrice());
             Console.ReadKey();
 
             ////test static
-            Counter c1 = new Counter();
+           /* Counter c1 = new Counter();
             Counter c2 = new Counter();
 
           
-            Console.WriteLine(Counter.increment());//marche car statique!
+            Console.WriteLine(Counter.increment());//marche car statique!*/
 
 
         }
